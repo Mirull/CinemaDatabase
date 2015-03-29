@@ -1,19 +1,22 @@
 use CinemaDatabase;
 
-INSERT INTO Products(name, amount, price)
-VALUES ('Ma≥y popcorn', 500, 12.99);
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('Coca-cola', 300, 9.99, 2, 3, 'coca-cola');
 
-INSERT INTO Products(name, amount, price)
-VALUES ('Duøy popcorn', 300, 15.99);
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('Coca-cola XL', 500, 12.99, 2, 3, 'coca-colaxl');
 
-INSERT INTO Products(name, amount, price)
-VALUES ('Ma≥a Coca-cola', 200, 9.99);
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('Coca-cola XXL', 500, 14.99, 2, 3, 'coca-colaxxl');
 
-INSERT INTO Products(name, amount, price)
-VALUES ('Duøa Coca-cola', 500, 12.99);
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('Woda 500ml', 500, 6.99, 2, 4, 'woda-500ml');
 
-INSERT INTO Products(name, amount, price)
-VALUES ('Nachosy', 100, 17.99);
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('Ma≈Çy pop-corn', 500, 12.49, 5, 6, 'maly-pop-corn');
 
-INSERT INTO Products(name, amount, price)
-VALUES ('Lody', 400, 2.99);
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('≈öredni pop-corn', 300, 13.99, 5, 6, 'sredni-pop-corn');
+
+INSERT INTO Products(name, amount, price, main_category, sub_category, slug)
+VALUES ('Du≈ºy pop-corn', 300, 14.99, 5, 6, 'duzy-pop-corn');
