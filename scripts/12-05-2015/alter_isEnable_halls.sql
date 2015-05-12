@@ -1,0 +1,2 @@
+use CinemaDatabase
+ALTER TABLE Halls ALTER COLUMN isEnable INTEGER NOT NULL
